@@ -1,14 +1,14 @@
-# Go Binance API [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/apisit/binance-go)
+# Go Binance API [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/marcelo68ms/binance-go)
 
 binance-go is a go client library for Binance Rest APIs
 
 ## Installation
 
 ```sh
-go get github.com/apisit/binance-go
+go get github.com/marcelo68ms/binance-go
 ```
 
-For details on all the functionality in this library, see the [GoDoc](http://godoc.org/github.com/apisit/binance-go) documentation.
+For details on all the functionality in this library, see the [GoDoc](http://godoc.org/github.com/marcelo68ms/binance-go) documentation.
 
 ### Usage without a Client
 
@@ -16,7 +16,7 @@ If you are dealing with one account. There is no need to create a new client. yo
 
 ```go
 import (
-	"github.com/apisit/binance-go"
+	"github.com/marcelo68ms/binance-go"
 )
 
 // Setup
@@ -67,8 +67,8 @@ log.Printf("%v", serverTime)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/market"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/market"
 )
 
 orderBookParams := market.OrderBookParams{
@@ -87,8 +87,8 @@ log.Printf("%v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/market"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/market"
 )
 
 params := market.Params{
@@ -106,8 +106,8 @@ log.Printf("%v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/market"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/market"
 )
 
 p, err := binance.Market().Prices()
@@ -122,8 +122,8 @@ log.Printf("%v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/market"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/market"
 )
 
 p, err := binance.Market().AllBookTickers()
@@ -142,8 +142,8 @@ Account requires signed endpoint. You must provide API Key and Secret Key to be 
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -167,8 +167,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -192,8 +192,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -218,8 +218,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -244,8 +244,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -269,8 +269,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -294,8 +294,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -316,8 +316,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -340,8 +340,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -358,8 +358,8 @@ log.Printf("%v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -379,8 +379,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -402,8 +402,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -420,8 +420,8 @@ log.Printf("%+v", p)
 
 ```go
 import (
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/account"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/account"
 )
 
 binanceClient := binance.Client{}
@@ -445,8 +445,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/stream"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/stream"
 )
 
 func aggregateTradeHandler(data stream.AggregateTradeStream) {
@@ -473,8 +473,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/stream"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/stream"
 )
 
 func depthHandler(data stream.DepthStream) {
@@ -501,8 +501,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/stream"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/stream"
 )
 
 func klineHandler(data stream.KlineStream) {
@@ -530,8 +530,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/apisit/binance-go"
-	"github.com/apisit/binance-go/stream"
+	"github.com/marcelo68ms/binance-go"
+	"github.com/marcelo68ms/binance-go/stream"
 )
 
 func tradeHandler(data stream.TradeStream) {

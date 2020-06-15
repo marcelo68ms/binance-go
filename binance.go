@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/apisit/binance-go/account"
-	"github.com/apisit/binance-go/client"
-	"github.com/apisit/binance-go/general"
-	"github.com/apisit/binance-go/market"
-	"github.com/apisit/binance-go/stream"
+	"github.com/marcelo68ms/binance-go/account"
+	"github.com/marcelo68ms/binance-go/client"
+	"github.com/marcelo68ms/binance-go/general"
+	"github.com/marcelo68ms/binance-go/market"
+	"github.com/marcelo68ms/binance-go/stream"
 )
 
 //constant used for API client
@@ -17,7 +17,7 @@ const (
 	APIURL             = "https://www.binance.com"
 	StreamAPIURL       = "wss://stream.binance.com:9443/ws"
 	clientVersion      = "0.1"
-	UserAgent          = "github.com/apisit/binance-go version/" + clientVersion
+	UserAgent          = "github.com/marcelo68ms/binance-go version/" + clientVersion
 	defaultHTTPTimeout = 80 * time.Second
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apisit/binance-go/client"
+	"github.com/marcelo68ms/binance-go/client"
 )
 
 type AggregateTradeHandler func(data AggregateTradeStream)

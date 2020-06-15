@@ -2,7 +2,7 @@
 package account
 
 import (
-	"github.com/apisit/binance-go/client"
+	"github.com/marcelo68ms/binance-go/client"
 )
 
 //Default RecvWindow

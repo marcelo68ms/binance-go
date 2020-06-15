@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apisit/binance-go/client"
+	"github.com/marcelo68ms/binance-go/client"
 )
 
 var httpClient = &http.Client{Timeout: 80 * time.Second}
