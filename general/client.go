@@ -4,7 +4,7 @@ package general
 import (
 	"time"
 
-	"github.com/apisit/binance-go/client"
+	"github.com/marcelo68ms/binance-go/client"
 )
 
 type Client struct {

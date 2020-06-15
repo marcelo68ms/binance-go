@@ -1,7 +1,7 @@
 //Package general provides the binding for Binance Rest APIs market endpoints
 package market
 
-import "github.com/apisit/binance-go/client"
+import "github.com/marcelo68ms/binance-go/client"
 
 type Client struct {
 	API client.API
