@@ -32,7 +32,7 @@ type (
 
 	AllOrders []struct {
 		Symbol        string `json:"symbol"`
-		OrderID       int    `json:"orderId"`
+		OrderID       int64  `json:"orderId"`
 		ClientOrderID string `json:"clientOrderId"`
 		Price         string `json:"price"`
 		OrigQty       string `json:"origQty"`
@@ -50,7 +50,7 @@ type (
 //Open order response.
 type OpenOrders []struct {
 	Symbol        string `json:"symbol"`
-	OrderID       int    `json:"orderId"`
+	OrderID       int64  `json:"orderId"`
 	ClientOrderID string `json:"clientOrderId"`
 	Price         string `json:"price"`
 	OrigQty       string `json:"origQty"`
@@ -73,7 +73,7 @@ type (
 
 	OrderStatus struct {
 		Symbol        string `json:"symbol"`
-		OrderID       int    `json:"orderId"`
+		OrderID       int64  `json:"orderId"`
 		ClientOrderID string `json:"clientOrderId"`
 		Price         string `json:"price"`
 		OrigQty       string `json:"origQty"`
@@ -98,7 +98,7 @@ type (
 	CancelOrder struct {
 		Symbol            string `json:"symbol"`
 		OrigClientOrderID string `json:"origClientOrderId"`
-		OrderID           int    `json:"orderId"`
+		OrderID           int64  `json:"orderId"`
 		ClientOrderID     string `json:"clientOrderId"`
 	}
 )
@@ -119,7 +119,7 @@ type OrderParams struct {
 //Common order response.
 type OrderResponse struct {
 	Symbol        string `json:"symbol"`
-	OrderID       int    `json:"orderId"`
+	OrderID       int64  `json:"orderId"`
 	ClientOrderID string `json:"clientOrderId"`
 	TransactTime  int64  `json:"transactTime"`
 }
